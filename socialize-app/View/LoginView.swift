@@ -69,9 +69,24 @@ struct LoginView: View {
                             .font(.system(size: 20))
                             
                     }
-                    .padding(.horizontal, 40)
+                    .padding(.horizontal, 30)
+                    .padding(.bottom, 15)
                 }
+                
+                Divider()
+                    .frame(width: 330, height: 1.0)
+                    .background(.black)
+                    
+                HStack {
+                    Text("You don't have your account? ")
+                    NavigationLink {
+                        RegisterView()
+                    } label: {
+                        Text("Register Now!")
+                            .fontWeight(.semibold)
+                    }
 
+                }
             }
         }
         

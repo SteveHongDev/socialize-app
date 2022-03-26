@@ -12,6 +12,7 @@
 		496B7AB727E9F29C00E678EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496B7AB627E9F29C00E678EE /* Assets.xcassets */; };
 		496B7ABA27E9F29C00E678EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496B7AB927E9F29C00E678EE /* Preview Assets.xcassets */; };
 		496B7AC427EEC32300E678EE /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B7AC327EEC32200E678EE /* ForgotPasswordView.swift */; };
+		496B7AC627EF1D1C00E678EE /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B7AC527EF1D1C00E678EE /* RegisterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		496B7AB627E9F29C00E678EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		496B7AB927E9F29C00E678EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		496B7AC327EEC32200E678EE /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		496B7AC527EF1D1C00E678EE /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			children = (
 				496B7AB427E9F29B00E678EE /* LoginView.swift */,
 				496B7AC327EEC32200E678EE /* ForgotPasswordView.swift */,
+				496B7AC527EF1D1C00E678EE /* RegisterView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				496B7AB527E9F29B00E678EE /* LoginView.swift in Sources */,
+				496B7AC627EF1D1C00E678EE /* RegisterView.swift in Sources */,
 				496B7AC427EEC32300E678EE /* ForgotPasswordView.swift in Sources */,
 				496B7AB327E9F29B00E678EE /* socialize_appApp.swift in Sources */,
 			);
