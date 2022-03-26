@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		496B7AB327E9F29B00E678EE /* socialize_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B7AB227E9F29B00E678EE /* socialize_appApp.swift */; };
-		496B7AB527E9F29B00E678EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B7AB427E9F29B00E678EE /* ContentView.swift */; };
+		496B7AB527E9F29B00E678EE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B7AB427E9F29B00E678EE /* LoginView.swift */; };
 		496B7AB727E9F29C00E678EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496B7AB627E9F29C00E678EE /* Assets.xcassets */; };
 		496B7ABA27E9F29C00E678EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496B7AB927E9F29C00E678EE /* Preview Assets.xcassets */; };
+		496B7AC427EEC32300E678EE /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B7AC327EEC32200E678EE /* ForgotPasswordView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		496B7AAF27E9F29B00E678EE /* socialize-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "socialize-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		496B7AB227E9F29B00E678EE /* socialize_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = socialize_appApp.swift; sourceTree = "<group>"; };
-		496B7AB427E9F29B00E678EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		496B7AB427E9F29B00E678EE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		496B7AB627E9F29C00E678EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		496B7AB927E9F29C00E678EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		496B7AC327EEC32200E678EE /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,9 @@
 			isa = PBXGroup;
 			children = (
 				496B7AB227E9F29B00E678EE /* socialize_appApp.swift */,
-				496B7AB427E9F29B00E678EE /* ContentView.swift */,
+				496B7AC227EEC30C00E678EE /* Model */,
+				496B7AC127EEC30700E678EE /* ViewModel */,
+				496B7AC027EEC30200E678EE /* View */,
 				496B7AB627E9F29C00E678EE /* Assets.xcassets */,
 				496B7AB827E9F29C00E678EE /* Preview Content */,
 			);
@@ -65,6 +69,29 @@
 				496B7AB927E9F29C00E678EE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		496B7AC027EEC30200E678EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				496B7AB427E9F29B00E678EE /* LoginView.swift */,
+				496B7AC327EEC32200E678EE /* ForgotPasswordView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		496B7AC127EEC30700E678EE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		496B7AC227EEC30C00E678EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +164,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				496B7AB527E9F29B00E678EE /* ContentView.swift in Sources */,
+				496B7AB527E9F29B00E678EE /* LoginView.swift in Sources */,
+				496B7AC427EEC32300E678EE /* ForgotPasswordView.swift in Sources */,
 				496B7AB327E9F29B00E678EE /* socialize_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

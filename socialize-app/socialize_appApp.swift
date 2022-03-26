@@ -11,7 +11,7 @@ import SwiftUI
 struct socialize_appApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView()
         }
     }
 }
